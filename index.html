@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>wether report</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <header>
+        <h1 class="title">Прогноз погоды</h1>
+        <form action="" class="form">
+            <input type="text" name="city" placeholder="Введите название города">
+            <button>Показать</button>
+            <div class="dropdown">
+                <button><span></span></button>
+            </div>
+            <ul class="city-list" data-dropdown = ''>
+                <li>Berlin</li>
+                <li>Paris</li>
+                <li>New-York</li>
+                <li>Moscow</li>
+                <li>Los-angeles</li>
+                <li>Madrid</li>
+                <li>Barcelona</li>
+                <li>London</li>
+                <li>Manchester</li>
+                <li>Saint-Petersburg</li>
+            </ul>
+        </form>
+    </header>
+    <main>
+        <article class="card">
+            <!-- <div class="card__inner">
+                <div class="city">
+                    <div class="city__name">London</div>
+                    <div class="city__republic">GB</div>
+                </div>
+                <div class="card__wrapper">
+                    <div class="report">
+                        <div class="degrees">11<sup>°c</sup></div>
+                        <div class="wether-descr">Облачно</div>
+                    </div>
+                    <img src="example.png" alt="wether-image">
+                </div>
+            </div> -->
+        </article>
+        <div class="switch-metrics">
+                <div class="switch-metrics__celsius">
+                    <input type="radio" id="celsius" name="options">
+                    <label for="celsius">C</label>
+                </div>
+                <div class="switch-metrics__fahrenheit">
+                    <input type="radio" id="fahrenheit" name="options">
+                    <label for="fahrenheit">F</label>
+                </div>
+        </div>
+    </main>
+    <div class="overlay">
+
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
