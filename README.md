@@ -1,5 +1,5 @@
 # weather-app-1.0
-**Weather forecast with www.weatherapi.com, api.geoapify.com** <br>
+**Weather forecast with www.weatherapi.com, www.geoapify.com** <br>
 
 **Info:** <br>
 - The application shows the weather in the selected city with the appropriate description. <br> 
