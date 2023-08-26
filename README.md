@@ -1,4 +1,4 @@
-# weather-app-1.0
+# weather-app-2.0
 **Weather forecast with www.weatherapi.com, www.geoapify.com** <br>
 
 **Info:** <br>
