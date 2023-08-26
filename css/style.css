@@ -210,34 +210,6 @@ main {
     z-index: 5;
 }
 
-.switch-metrics {
-    position: absolute;
-    display: flex;
-    top: -20px;
-    right: 130px;
-}
-
-.switch-metrics > div label{
-    display: block;
-    font-size: 20px;
-    font-weight: 700;
-    color: rgb(1, 164, 164);
-    padding: 7px 15px;
-    border: 1px solid rgb(1, 164, 164);
-    border-radius: 10px;
-    transition: all 0.2s;
-}
-
-.switch-metrics input[type='radio'] {
-    display: none;
-}
-
-.switch-metrics label:hover {
-    color: #fff;
-    background: rgb(1, 164, 164);
-}
-
-
 /* ====================MEDIA=================================== */
 
 @media screen and (max-width: 500px) {
